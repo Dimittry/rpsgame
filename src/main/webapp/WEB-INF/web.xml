@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+		<display-name>RSPGame</display-name>
+		<servlet>
+			<servlet-name>GameServlet</servlet-name>
+			<servlet-class>ru.begjavaweb.controllers.GameServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>GameServlet</servlet-name>
+			<url-pattern>/play</url-pattern>
+		</servlet-mapping>
+
+		<welcome-file-list>
+			<welcome-file>index.jsp</welcome-file>
+		</welcome-file-list>
+</web-app>
